@@ -1,13 +1,3 @@
-/*
-Task 3: Expand Task List with Dynamic Filtering and Sorting (5 Points)
-Update your TaskComponent to include a search feature.
-Add an input field that filters the displayed tasks based on the entered text.
-Add a "Sort by Name" button that sorts the tasks alphabetically when clicked.
-Example Output:
-[Search Tasks] [ Buy ]
-- Buy groceries
-- Buy office supplies
-*/
 import {useEffect, useState} from "react";
 import TaskForm from './TaskForm.jsx'
 
